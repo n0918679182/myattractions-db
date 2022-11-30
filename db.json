@@ -1,11 +1,82 @@
-{"users": [
-    
+{
+  "user": [
+    {
+      "id": 1,
+      "name": "Wayne",
+      "account": "admin",
+      "pwd": "admin",
+      "permissions": "admin"
+    },
+    {
+      "id": 2,
+      "name": "Abby",
+      "account": "aa@gmail.com",
+      "pwd": "aa",
+      "permissions": "common"
+    },
+    {
+      "id": 3,
+      "name": "Beggy",
+      "account": "bb@gmail.com",
+      "pwd": "bb",
+      "permissions": "common"
+    },
+    {
+      "account": "cc@gmail.com",
+      "pwd": "cc",
+      "name": "大前",
+      "id": 4
+    },
+    {
+      "account": "dd@gmail.com",
+      "pwd": "dd",
+      "name": "小吳",
+      "id": 5
+    }
   ],
-  "posts": [
-    { "id": 1, "title": "json-server22", "author": "typicode" }
+  "sightseeing": [
+    {
+      "id": 1,
+      "title": "紫坪",
+      "body": "郭明錤認為，鄭州廠11月的平均產能利用率僅約20％，12月有機會改善至30至40％，雖然和碩跟立訊已分別自鴻海取得約1成的iPhone 14Pro系列訂單，但最快12月下旬才能大量出貨，因此12月出貨量仍顯著低於預期。",
+      "imgUrl": "https://www.eastcoast-nsa.gov.tw/image/436/640x480",
+      "userId": 1
+    },
+    {
+      "id": 2,
+      "title": "帆船鼻大草原",
+      "body": "郭明錤認為，鄭州廠11月的平均產能利用率僅約20％，12月有機會改善至30至40％，雖然和碩跟立訊已分別自鴻海取得約1成的iPhone 14Pro系列訂單，但最快12月下旬才能大量出貨，因此12月出貨量仍顯著低於預期。",
+      "imgUrl": "",
+      "userId": 1
+    },
+    {
+      "id": 3,
+      "title": "哈巴狗與睡美人岩",
+      "body": "郭明錤認為，鄭州廠11月的平均產能利用率僅約20％，12月有機會改善至30至40％，雖然和碩跟立訊已分別自鴻海取得約1成的iPhone 14Pro系列訂單，但最快12月下旬才能大量出貨，因此12月出貨量仍顯著低於預期。",
+      "imgUrl": "",
+      "userId": 2
+    }
   ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 }
-  ],
-  "profile": { "name": "typicode" }
+  "collects": [
+    {
+      "userId": "1",
+      "sightseeingId": "1",
+      "id": 3
+    },
+    {
+      "userId": "1",
+      "sightseeingId": "3",
+      "id": 5
+    },
+    {
+      "userId": "1",
+      "sightseeingId": "2",
+      "id": 6
+    },
+    {
+      "userId": "2",
+      "sightseeingId": "1",
+      "id": 7
+    }
+  ]
 }
